@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  background-color: #e2e6e4;
+}
+img {
+  width: 200px;
+  height: auto;
+}
+h1 {
+  color: #468368;
+  text-align: center;
+  font-size: 35px;
+}
+p {
+  font-size: 14px;
+  padding: 1rem 0rem;
+}
+
+button {
+  background-color: #65b990;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  font-size: 14px;
+  color: whitesmoke;
+  border: none;
+  margin: 0.2rem 0rem;
+}
+button:active {
+  background-color: #468368;
+}
+
+.currency {
+  padding: 2rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.currency select {
+  font-size: 12px;
+  padding: 0.4rem 0.3rem;
+  border-radius: 5px;
+  appearance: none;
+  font-size: 16px;
+  background-color: #e2e6e4;
+  border-color: #468368;
+}
+.currency input {
+  border: none;
+  background-color: #e2e6e4;
+  font-size: 30px;
+  text-align: end;
+  font-weight: 600;
+  appearance: none;
+}
+
+.swap-rate-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rate {
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  color: #65b990;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+select:focus,
+input:focus {
+  outline: 0;
+}
