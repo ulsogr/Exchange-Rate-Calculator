@@ -1,4 +1,4 @@
-#Exchange Rate Calculator
+# Exchange Rate Calculator.
 İt's a Exchange Rate Calculator project with fetch and json.
 for api https://www.exchangerate-api.com.
 
